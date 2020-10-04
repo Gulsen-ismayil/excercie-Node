@@ -10,7 +10,7 @@ const myInfos = () => {
 const cowsay = require("cowsay");
 
 console.log(cowsay.say({
-	text : `Hi, this is ${profile.name}, I'm in ${profile.campus}`,
+	text : `Hi, this is Ms ${profile.name}, I'm in ${profile.campus}`,
 	e : "oO",
 	T : "U "
 }));
